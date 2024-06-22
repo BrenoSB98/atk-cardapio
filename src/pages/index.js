@@ -29,16 +29,16 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou um combo de Whisky Grátis em comemoração ao lançamento do filme! Resgate agora!
+              Faça login para acessar nosso cardápio e ter acesso a todas nossas delícias.
             </h2>
 
-            <p>Promoção exclusiva para o Shopping Iguatemi São Paulo.</p>
+            <p>O melhor de todos os tipos de culinária.</p>
           </div>
 
           <div className={styles.form_data}>
             <div className={styles.google} onClick={handleNextPage}>
               <div>
-                <Image src="/google.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/google.svg" alt="Dona Florinda" width={24} height={24} />
               </div>
 
               <span>
@@ -48,21 +48,21 @@ export default function Home() {
 
             <div className={styles.facebook} onClick={handleNextPage}>
               <div>
-                <Image src="/facebook.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/facebook.svg" alt="Dona Florinda" width={24} height={24} />
               </div>
 
               <span>
                 Fazer login com o Facebook
               </span>
             </div>
-            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
+            <span className={styles.terms}>Ao cadastrar você concorda com os Termos de Uso</span>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2024 Restaurant de Dona Florinda
         </span>
       </div>
 
