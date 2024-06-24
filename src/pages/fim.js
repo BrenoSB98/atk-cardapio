@@ -25,7 +25,14 @@ export default function Home() {
               Combo esgotado para retirada neste shopping.
             </h2>
 
-            <p>Entraremos em contato via e-mail para enviar o combo na sua casa. 🥃</p>
+            <p>Entraremos em contato via e-mail para enviar o combo na sua casa. 🥃</p> 
+
+            
+           
+            <div className={styles.form_data}>
+              <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1GIV2AvVh2UzriygQxyUhefJ-Fkzg8IjP/', '_blank ', 'noopener,noreferrer')} className={styles.form_button}>Download</button>
+            </div>             
+
           </div>
         </div>
       </div>

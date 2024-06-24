@@ -18,12 +18,12 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/logo.svg" alt="Japa" width={120} height={120} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.png" alt="Japa" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className={styles.facebook} onClick={handleNextPage}>
               <div>
-                <Image src="/facebook.svg" alt="Dona Florinda" width={24} height={24} />
+                <Image src="/facebook.svg" alt="Japa" width={24} height={24} />
               </div>
 
               <span>

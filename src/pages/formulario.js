@@ -48,12 +48,12 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/logo.svg" alt="Japa" width={152} height={152} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.png" alt="Japa" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
@@ -64,7 +64,6 @@ export default function Home() {
 
             <p></p>
           </div>
-
           <div className={styles.form_data}>
             <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" />
             <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" />
