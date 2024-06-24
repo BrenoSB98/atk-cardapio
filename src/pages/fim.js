@@ -11,26 +11,26 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/logo.svg" alt="Japa" width={170} height={75} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.png" alt="Japa" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Combo esgotado para retirada neste shopping.
+              Agora você já pode ter acesso ao nosso cardápio para conferir nossa deliciosa culinária japonesa.
             </h2>
 
-            <p>Entraremos em contato via e-mail para enviar o combo na sua casa. 🥃</p> 
+            <p>Clique no botão abaixo para ter acesso ao cardápio.</p> 
 
             
            
             <div className={styles.form_data}>
-              <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1GIV2AvVh2UzriygQxyUhefJ-Fkzg8IjP/', '_blank ', 'noopener,noreferrer')} className={styles.form_button}>Download</button>
+              <button onClick={() => window.open('https://drive.google.com/uc?export=download&id=1GIV2AvVh2UzriygQxyUhefJ-Fkzg8IjP', '_blank ', 'noopener,noreferrer')} className={styles.form_button}>DOWNLOAD</button>
             </div>             
 
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2024 Fast Japa
         </span>
       </div>
 

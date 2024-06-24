@@ -48,7 +48,7 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Japa" width={152} height={152} />
+        <Image src="/logo.svg" alt="Japa" width={170} height={75} />
       </div>
 
       <div className={styles.form}>
@@ -59,23 +59,23 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você está proximo(a) de conhecer a maravilhosa culinária da Dona Florinda!
+              Faça login para conhecer o melhor da culinária japonesa.
             </h2>
 
-            <p></p>
+            <p>Insira seu e-mail e senha nos campos abaixo</p>
           </div>
           <div className={styles.form_data}>
             <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" />
             <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" />
             <button onClick={handleSubmit} className={styles.form_button}>ACESSAR CARDÁPIO</button>
-            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
+            <span className={styles.terms}>Ao acessar você concorda com os Termos de Uso</span>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-          © 2024 Restaurant de Dona Florinda
+          © 2024 Fast Japa
         </span>
       </div>
 
